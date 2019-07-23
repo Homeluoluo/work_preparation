@@ -1,7 +1,5 @@
 package wangyi;
 
-import jdk.nashorn.internal.runtime.regexp.RegExp;
-import jdk.nashorn.internal.runtime.regexp.RegExpMatcher;
 
 import java.util.Scanner;
 import java.util.regex.Matcher;

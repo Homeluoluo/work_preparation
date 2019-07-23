@@ -32,7 +32,7 @@ public class CollectionTest {
         System.out.println(table.size());
 
 //        线程安全的map
-        Map<Integer,String> map1= Collections.synchronizedMap(new HashMap<>());
+        Map<Integer,String> map1= Collections.synchronizedMap(new HashMap<Integer, String>());
     }
     public static void setTest(){
 //        SortedSet<>
