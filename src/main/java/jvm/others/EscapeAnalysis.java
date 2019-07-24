@@ -25,5 +25,15 @@ class EscapeAnalysis {
         long end = System.nanoTime();
         System.out.println("Time cost is " + (end - start));
     }
+    /*
+     * 结果：
+     * 开启逃逸分析
+     * -server -verbose:gc -XX:+DoEscapeAnalysis
+     * Time cost is 40102100
+     *
+     * 未开启逃逸分析
+     * -server -verbose:gc
+     * Time cost is 4246900
+     * */
 
 }
