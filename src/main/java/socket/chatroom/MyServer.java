@@ -15,7 +15,7 @@ import java.util.List;
  */
 public class MyServer {
 //    定义保存所有socket的list,属于类成员。
-    public static List<Socket> socketList= Collections.synchronizedList(new ArrayList<>());
+    public static List<Socket> socketList= Collections.synchronizedList(new ArrayList<Socket>());
     public static void main(String[] args) throws IOException {
         ServerSocket serverSocket=new ServerSocket(30000);
         while (true){

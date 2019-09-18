@@ -2,7 +2,6 @@ package niuke.toutiao;
 import java.lang.Math;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
-import java.util.function.BinaryOperator;
 
 /**
  * @Classname Test
