@@ -80,4 +80,9 @@ public class CollectionTest {
             System.out.println("第" + (i + 1) + "个元素为：" + list.get(i));
         }
     }
+
+//    测试TreeSet
+    public static void ttreeSet(){
+
+    }
 }

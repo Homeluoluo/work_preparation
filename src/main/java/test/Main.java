@@ -1,7 +1,5 @@
 package test;
 
-import com.sun.xml.internal.fastinfoset.algorithm.IntEncodingAlgorithm;
-
 import java.util.HashMap;
 import java.util.Map;
 
