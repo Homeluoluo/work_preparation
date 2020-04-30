@@ -1,4 +1,4 @@
-package crazy.codes.test.collection;
+package interview.collection;
 
 import java.util.Collections;
 import java.util.HashMap;
